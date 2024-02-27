@@ -10,7 +10,7 @@
     <main>
       <h1 id="title">Formulário de Descoberta Pessoal</h1>
       <p id="description">Explorando quem você é: suas paixões e interesses</p>
-      
+
       <form id="survey-form">
         <label for="name" id="name-label">Nome:</label>
         <input type="text" id="name" name="name" required placeholder="Insira seu nome">
@@ -40,6 +40,24 @@
             <input type="radio" name="radio-option" value="option2"> Opção 2
           </label>
         </fieldset>
+
+        <!-- Checkboxes -->
+        <fieldset>
+          <legend>Selecione várias opções:</legend>
+          <!-- Checkbox option 1 -->
+          <label>
+              <input type="checkbox" name="checkbox-option" value="option1"> Opção 1
+          </label>
+          <!-- Checkbox option 2 -->
+          <label>
+              <input type="checkbox" name="checkbox-option" value="option2"> Opção 2
+          </label>
+          <!-- Checkbox option 3 -->
+          <label>
+              <input type="checkbox" name="checkbox-option" value="option3"> Opção 3
+          </label>
+        </fieldset>
+
         <button type="submit">Enviar</button>
       </form>
     </main>
